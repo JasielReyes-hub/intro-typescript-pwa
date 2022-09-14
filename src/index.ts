@@ -1,8 +1,31 @@
 
+//Definicion de Interfaces
 
-console.log('Hola Mi Amor eres del Salon IEVN1001 UwU');
+interface Alumno{
+    matricula: number;
+    nombre: string;
+    email: string;
+}
 
-/*
-    ===== Código de TypeScript =====
-*/
+//Objeto en Ts
+let alumno: Alumno = {
+    nombre:'Jasiel', 
+    matricula:1234, 
+    email: "leonartdreyes@gmail.com" 
+}
+
+
+let mascotas = ['perro', 'gato', 'perico']
+
+mascotas [1] ='shshs', 
+mascotas.push()
+
+let tem:(number | string)[]=[]
+tem.push('Nombre');
+tem.push(222);
+
+
+
+
+console.log(mascotas)
 
