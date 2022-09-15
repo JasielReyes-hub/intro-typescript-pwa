@@ -26,7 +26,7 @@ const AlumnoUtl:DatoUni={
 };
 
 const direccionE = AlumnoUtl.mostrardireccion();
-console.log(direccion);
+console.log(direccionE);
 
 
 // const nuevaMascota: mascotas = {
